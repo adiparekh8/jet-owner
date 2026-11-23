@@ -12,7 +12,7 @@ Needs Python 3. No other dependencies.
 
 Then open http://localhost:8765.
 
-`build_db.py` downloads the FAA registry file (about 70 MB) and loads it into
+`build_db.py` downloads the FAA registry file (about 80 MB) and loads it into
 a SQLite database in `data/`. The FAA updates the file every night, so re-run
 it to get fresh data. `python3 build_db.py --no-download` rebuilds from the
 file already on disk.
